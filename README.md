@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /brain.jpg
+heroImage: /images/brain.jpg
 heroText: Alex Shvid's Blog
 tagline: Let's talk about Deep Learning
 actionText: Get Started →
@@ -22,7 +22,3 @@ from tensorflow.python.client import device_lib
 
 device_lib.list_local_devices()
 ```
-
-### Posts
-
-<Posts page="posts">
