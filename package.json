@@ -1,0 +1,23 @@
+{
+  "name": "alexshvid.github.io",
+  "version": "1.0.0",
+  "description": "AleShvid Blog",
+  "main": "index.js",
+  "scripts": {
+    "site:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexshvid/alexshvid.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexshvid/alexshvid.github.io/issues"
+  },
+  "homepage": "https://github.com/alexshvid/alexshvid.github.io#readme",
+  "dependencies": {
+      "vuepress": "^1.1.0"
+   }
+}
