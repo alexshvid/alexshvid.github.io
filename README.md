@@ -14,3 +14,11 @@ features:
   details: Bias is the king, make sure that you are in the right direction.
 footer: San Jose, CA | Copyright © 2019-present Alex Shvid
 ---
+
+### Quick Start
+
+``` python
+from tensorflow.python.client import device_lib
+
+device_lib.list_local_devices()
+```
