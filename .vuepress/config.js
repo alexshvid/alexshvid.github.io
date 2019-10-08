@@ -12,7 +12,7 @@ const autometa_options = {
   schema : true, // schema.org for google
 
   site: {
-    name   : 'AlexShvid',
+    name   : 'Alex Shvid',
     twitter: 'AlexShvid',
   },
   canonical_base: 'https://www.alexshvid.com',
@@ -25,6 +25,15 @@ const autometa_options = {
 };
 
 module.exports = {
+  title: "Alex Shvid",
+  description: "Deep Learning Blog",
+  themeConfig: {
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Posts", link: "/posts/" }
+    ]
+  },
+
   plugins: [
     [ 'feed', feed_options ],
     [ 'autometa', autometa_options ],

@@ -1,0 +1,4 @@
+
+### Posts
+
+<Posts page="posts">
