@@ -1,15 +1,15 @@
 <template>
-  <div class="posts" v-if="posts.length">
-    <div class="post" v-for="post in posts">
+  <b-container class="posts" v-if="posts.length">
+    <b-row class="post" v-for="post in posts">
+      <b-col sm="auto"><img height="100" v-if="post.frontmatter.feed.image" :src="$withBase(post.frontmatter.feed.image)" alt=""></b-col>
+      <b-col>
       <router-link :to="post.path">
-        <div>
-          <img v-if="post.frontmatter.image" :src="$withBase(post.frontmatter.image)" alt="">
-        </div>
-        <h2>{{post.frontmatter.title}}</h2>
-        <p>{{post.frontmatter.description}}</p>
+        <h2>{{post.frontmatter.feed.date.slice(0, 10)}}   {{post.frontmatter.feed.title}}</h2>
       </router-link>
-    </div>
-  </div>
+      <p>{{post.frontmatter.feed.description}}</p>
+      </b-col>
+    </b-row>
+  </b-container>
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
           return x.path.match(new RegExp(`(${currentPage})(?=.*html)`));
         })
         .sort((a, b) => {
-          return new Date(b.frontmatter.date) - new Date(a.frontmatter.date);
+          return new Date(b.frontmatter.feed.date) - new Date(a.frontmatter.feed.date);
         });
       return posts;
     }

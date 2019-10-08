@@ -1,0 +1,13 @@
+<div class="posts" v-if="posts.length">
+  <div class="post" v-for="post in posts">
+    <div>
+      <img height="100" v-if="post.frontmatter.feed.image" :src="$withBase(post.frontmatter.feed.image)" alt="">
+    </div>
+    <div>
+      <router-link :to="post.path">
+        <h2>{{post.frontmatter.feed.date.slice(0, 10)}}   {{post.frontmatter.feed.title}}</h2>
+      </router-link>
+      <p>{{post.frontmatter.feed.description}}</p>
+    </div>
+  </div>
+</div>
