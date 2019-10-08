@@ -4,7 +4,7 @@ heroImage: /brain.jpg
 heroText: Alex Shvid's Blog
 tagline: Let's talk about Deep Learning
 actionText: Get Started →
-actionLink: /blog/
+actionLink: /posts/
 features:
 - title: Simplicity First
   details: Model must be simple enough to understand in first 10 minutes.

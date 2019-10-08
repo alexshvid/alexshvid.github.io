@@ -1,7 +1,7 @@
 {
   "name": "alexshvid.github.io",
   "version": "1.0.0",
-  "description": "AleShvid Blog",
+  "description": "Alex Shvid Blog",
   "main": "index.js",
   "scripts": {
     "site:build": "vuepress build"
@@ -11,13 +11,18 @@
     "url": "git+https://github.com/alexshvid/alexshvid.github.io.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Alex Shvid",
+  "license": "NO",
   "bugs": {
     "url": "https://github.com/alexshvid/alexshvid.github.io/issues"
   },
   "homepage": "https://github.com/alexshvid/alexshvid.github.io#readme",
   "dependencies": {
-      "vuepress": "^1.1.0"
-   }
+    "vuepress": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.1.0",
+    "vuepress-plugin-autometa": "^0.1.12",
+    "vuepress-plugin-feed": "^0.1.7"
+  }
 }
