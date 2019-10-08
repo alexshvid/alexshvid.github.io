@@ -1,6 +1,6 @@
 ---
 
-image: /images/rocket-lunch.jpg.jpg
+image: /images/rocket-lunch.jpg
 title: First post
 description: This is the first post description
 post.date: 2019-10-08 (yyyy-mm-dd)
