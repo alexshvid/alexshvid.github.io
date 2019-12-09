@@ -5,7 +5,7 @@ feed:
   title: Install Docker support on Ubuntu 19.04
   description: How to install Docker on Ubuntu 19.04
   image: /images/docker.png
-  date: 2019-12-09
+  date: 2019-12-10
   author:
     -
       name: Alex Shvid
