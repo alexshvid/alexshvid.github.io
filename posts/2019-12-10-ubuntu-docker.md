@@ -100,3 +100,19 @@ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
 sudo systemctl restart docker
 ```
 
+3) Check if everything fine
+
+```
+nvidia-container-cli -V
+```
+
+I have this output
+
+```
+version: 1.0.5
+build date: 2019-09-06T16:59+00:00
+build revision: 13b836390888f7b7c7dca115d16d7e28ab15a836
+build compiler: x86_64-linux-gnu-gcc-7 7.4.0
+build platform: x86_64
+build flags: -D_GNU_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -std=gnu11 -O2 -g -fdata-sections -ffunction-sections -fstack-protector -fno-strict-aliasing -fvisibility=hidden -Wall -Wextra -Wcast-align -Wpointer-arith -Wmissing-prototypes -Wnonnull -Wwrite-strings -Wlogical-op -Wformat=2 -Wmissing-format-attribute -Winit-self -Wshadow -Wstrict-prototypes -Wunreachable-code -Wconversion -Wsign-conversion -Wno-unknown-warning-option -Wno-format-extra-args -Wno-gnu-alignof-expression -Wl,-zrelro -Wl,-znow -Wl,-zdefs -Wl,--gc-sections
+```
