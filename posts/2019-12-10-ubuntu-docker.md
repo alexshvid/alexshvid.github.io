@@ -72,4 +72,31 @@ So, let's run docker container with eGPU support!
 docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
 ```
 
+Ooops, I am getting
+```
+docker: Error response from daemon: Unknown runtime specified nvidia.
+See 'docker run --help'.
+```
+
+It looks like for the systems with Nvidia GPU cards, I need to install 'nvidia-docker', special version of the docker container.
+
+### Optional
+
+Installing nvidia-docker
+
+1) Add Nvidia repo to apt-get
+
+```
+distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+echo $distribution
+curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+```
+
+2) Install nvidia-docker 
+
+```
+sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+sudo systemctl restart docker
+```
 
