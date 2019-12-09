@@ -141,3 +141,23 @@ Or restart docker service.
 ```
 sudo systemctl restart docker
 ```
+
+4) Make sure that everything works
+
+```
+docker run --runtime=nvidia --rm nvidia/cuda nvidia-smi
+```
+
+You have to see similar output
+
+```
+Mon Dec  9 09:34:45 2019       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 440.26       Driver Version: 440.26       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+```
+
+Enjoy
