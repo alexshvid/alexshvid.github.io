@@ -29,6 +29,7 @@ Install Nvidia driver on Ubuntu
 sudo add-apt-repository ppa:graphics-drivers/ppa
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
+sudo reboot
 nvidia-smi
 ```
 
