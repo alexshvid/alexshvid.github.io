@@ -117,9 +117,27 @@ build platform: x86_64
 build flags: -D_GNU_SOURCE -D_FORTIFY_SOURCE=2 -DNDEBUG -std=gnu11 -O2 -g -fdata-sections -ffunction-sections -fstack-protector -fno-strict-aliasing -fvisibility=hidden -Wall -Wextra -Wcast-align -Wpointer-arith -Wmissing-prototypes -Wnonnull -Wwrite-strings -Wlogical-op -Wformat=2 -Wmissing-format-attribute -Winit-self -Wshadow -Wstrict-prototypes -Wunreachable-code -Wconversion -Wsign-conversion -Wno-unknown-warning-option -Wno-format-extra-args -Wno-gnu-alignof-expression -Wl,-zrelro -Wl,-znow -Wl,-zdefs -Wl,--gc-sections
 ```
 
+Install nvidia-docker
+
+```
+sudo apt-get install nvidia-docker2
+```
+
+Make sure that installation was succesfull
+
+```
+nvidia-docker -v
+Docker version 18.09.7, build 2d0083d
+```
+
 Reboot to make sure that everything reload.
 
 ```
 sudo reboot
 ```
 
+Or restart docker service.
+
+```
+sudo systemctl restart docker
+```
