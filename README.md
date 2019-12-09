@@ -17,24 +17,6 @@ footer: San Jose, CA | Copyright © 2019-present Alex Shvid
 
 ### Quick Start
 
-Allow thunderbolt3 eGPU device on Ubuntu
-``` bash
-sudo apt install thunderbolt-tools
-tbtadm devices
-tbtadm approve 0-1
-```
-
-Install Nvidia driver on Ubuntu
-``` bash
-sudo add-apt-repository ppa:graphics-drivers/ppa
-ubuntu-drivers devices
-sudo ubuntu-drivers autoinstall
-sudo reboot
-prime-select intel
-sudo nvidia-xconfig
-nvidia-smi
-```
-
 Check available devices
 
 ``` python
