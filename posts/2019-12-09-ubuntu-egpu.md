@@ -4,7 +4,7 @@ feed:
   enable: true
   title: Install Nvidia eGPU support on Ubuntu 19.04
   description: How to install NVidia drivers for eGPU on Ubuntu 19.04
-  image: /images/egpu.png
+  image: /images/egpu.jpeg
   date: 2019-12-09
   author:
     -
@@ -13,7 +13,7 @@ feed:
       link: https://www.alexshvid.com
 ---
 
-![](/images/egpu.png)
+![](/images/egpu.jpeg)
 
 # Install Nvidia eGPU support on Ubuntu 19.04
 
