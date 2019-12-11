@@ -160,4 +160,21 @@ Mon Dec  9 09:34:45 2019
 |===============================+======================+======================|
 ```
 
+5) Optional
+
+After playing with docker you probably end up with bunch of contrainers that eat your space on disk and does not give you any value - garbage.
+
+In order to see the list of them run
+
+```
+docker ps -a
+```
+
+In order delete all exited container run
+
+```
+docker ps -q -f 'status=exited' | xargs docker rm
+```
+
+
 Enjoy
