@@ -32,7 +32,7 @@ So, I decided to do benchmark for both of them.
 The first difference that I found is the temperature. 
 Samsung is 51C, whereas Crucial is just only 40C.
 
-Second thing is performance. Samsung drive is almost 2x faster than Crucial on reads. And I can feel it by running games.
+Second difference is the performance. Samsung drive is almost 2x faster than Crucial. That is true, I can feel it in gaming. If Wolfenstein Youngblood starts from Samsung, there is no any delay in the game. If it starts from Crucial P1, than I feel delays between blocks and even when the mission starts after game gives you control, so kind of pre-caching problems.
 
 Samsung results:
 ![](/images/samsung-ssd.png)
