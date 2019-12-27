@@ -2,8 +2,8 @@
 
 feed:
   enable: true
-  title: Testing two SSD drives
-  description: Testing two SSD drives
+  title: Testing M2 SSD drives
+  description: Testing M2 SSD drives
   image: /images/ssd.png
   date: 2019-12-26
   author:
