@@ -19,7 +19,7 @@ feed:
 
 I just received 1Tb Crucial SSD M.2 NVMe drive that I bought with a good discount.
 My laptop LG Gram 17 supports two NVMe drives and has two 2280 slots, therefore it was easy for
-me to decide what machine will use this drive.
+me to decide what machine will use for this drive.
 
 FInally, I end up with this configuration:
 * Samsung SSD 970 EVO 1TB 
