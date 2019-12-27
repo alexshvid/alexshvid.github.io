@@ -30,7 +30,7 @@ They both has the same size 1TB, but Samsung is 1.5 times more expensive than Cr
 So, I decided to do benchmark for both of them.
 
 The first difference that I found is the temperature. 
-Samsung is 51C, whereas Crucial just only 40C.
+Samsung is 51C, whereas Crucial is just only 40C.
 
 Second thing is performance. Samsung drive is almost 2x faster than Crucial on reads. And I can feel it by running games.
 
