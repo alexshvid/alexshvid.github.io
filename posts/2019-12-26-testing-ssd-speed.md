@@ -15,7 +15,7 @@ feed:
 
 ![](/images/ssd.png)
 
-# Testing two SSD drives
+# Testing M2 SSD drives
 
 I just received 1Tb Crucial SSD M.2 NVMe drive that I bought with a good discount.
 My laptop LG Gram 17 supports two NVMe drives and has two 2280 slots, therefore it was easy for
