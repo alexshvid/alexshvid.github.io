@@ -328,3 +328,11 @@ x265 3.0:
                                                 OpenBenchmarking.org Percentile
 
 ```
+
+My final results are in this pdf file: [alex-laptop.pdf](/pdf/alex-laptop.pdf)
+
+For my opinion i7 9700 is overkill for Eluktronics, NB50TZ. I checked the public benchmark, there are 16 installations and only one is on i7 9th gen (mine).
+
+This laptop I created not for machine learning, but mostly for development purposes. As a compiler machine, it is match my expectations.
+
+ 
