@@ -24,7 +24,7 @@ Installing docker is simple procedure, but making it workinf is another challeng
 Make system up-to-date
 
 ```
-sudo apt-get update upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 
 Uninstall old docker is needed
@@ -93,7 +93,7 @@ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
 curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
 ```
 
-2) Install nvidia-docker 
+2) Install nvidia-docker
 
 ```
 sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
