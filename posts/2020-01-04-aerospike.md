@@ -21,6 +21,11 @@ Download aerospike and AMC from vendor:
 * https://www.aerospike.com/download/
 * https://www.aerospike.com/download/amc/4.0.19/
 
+Download by console:
+```
+wget https://www.aerospike.com/artifacts/aerospike-amc-community/4.0.27/aerospike-amc-community-4.0.27_amd64.deb
+```
+
 Unpack and install all .dep files by
 ```
 sudo dpkg -i package_name.deb
