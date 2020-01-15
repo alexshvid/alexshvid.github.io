@@ -67,6 +67,7 @@ You need to reboot, in order to have drivers in the system.
 
 ```
 sudo apt install nvidia-cuda-toolkit
+sudo apt install nvidia-prime
 ```
 
 3) Register nvidia driver in X.
