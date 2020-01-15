@@ -76,7 +76,7 @@ Make sure that nvidia-prime is installed and setup your intel as a primary devic
 I did this because I am using Razer Core X, that does not have monitor, so, I still need to use intel driver to draw X.
 
 ```
-prime-select intel
+sudo prime-select intel
 ```
 
 We need to generate config, or create it as empty file.
