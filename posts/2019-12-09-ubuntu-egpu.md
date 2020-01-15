@@ -61,6 +61,12 @@ sudo ubuntu-drivers autoinstall
 sudo reboot
 ```
 
+I prefer 440 version of the driver, therefore do not use autoinstall.
+```
+sudo apt-get install nvidia-driver-440
+```
+
+
 You need to reboot, in order to have drivers in the system.
 
 3) Install additional cuda tools, including prime
