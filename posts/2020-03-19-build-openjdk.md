@@ -48,7 +48,7 @@ make images
 
 Run
 ```
-/build/linux-x86_64-server-release/jdk/bin/java --version
+./build/linux-x86_64-server-release/jdk/bin/java --version
 ```
 
 
