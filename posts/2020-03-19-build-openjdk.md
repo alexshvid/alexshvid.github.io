@@ -4,7 +4,7 @@ feed:
   enable: true
   title: Build open jdk on Ubuntu
   description: How to build open JDK on Ubuntu
-  image: /images/build-jdk.jpg
+  image: /images/open-jdk.png
   date: 2020-03-19
   author:
     -
@@ -13,7 +13,7 @@ feed:
       link: https://www.alexshvid.com
 ---
 
-![](/images/build-jdk.jpg)
+![](/images/open-jdk.png)
 
 # Build and compile Open JDK
 
