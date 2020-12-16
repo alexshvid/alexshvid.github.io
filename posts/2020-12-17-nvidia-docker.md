@@ -4,7 +4,7 @@ feed:
   enable: true
   title: Install Nvidia-docker
   description: How to install nvidia docker on Ubuntu
-  image: /images/nvdia-docker.png
+  image: /images/docker.png
   date: 2020-12-17
   author:
     -
