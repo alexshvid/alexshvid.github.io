@@ -4,7 +4,7 @@ feed:
   enable: true
   title: Install CUDA 10.2 on Ubuntu 18.04
   description: How to install CUDA 10.2 on Ubuntu 18.04
-  image: /images/cuda10.png
+  image: /images/cuda10.jpg
   date: 2020-12-14
   author:
     -
@@ -13,7 +13,7 @@ feed:
       link: https://www.alexshvid.com
 ---
 
-![](/images/cuda10.png)
+![](/images/cuda10.jpg)
 
 # How to install CUDA 10.2 on Ubuntu 18.04
 
