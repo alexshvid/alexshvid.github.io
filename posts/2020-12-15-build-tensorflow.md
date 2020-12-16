@@ -116,7 +116,7 @@ Build whl file
 bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg/
 ```
 
-Download ready whl file
+Download ready whl files
 ```
-
+[https://github.com/alexshvid/tensorflow/releases/tag/v2.3.1-cuda10.2](https://github.com/alexshvid/tensorflow/releases/tag/v2.3.1-cuda10.2)
 ```
