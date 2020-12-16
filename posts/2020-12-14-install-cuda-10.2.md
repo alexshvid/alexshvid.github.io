@@ -42,5 +42,6 @@ apt-get install -y --no-install-recommends \
     libnvinfer7=7.0.0-1+cuda10.2 \
     libnvinfer-dev=7.0.0-1+cuda10.2 \
     libnvinfer-plugin7=7.0.0-1+cuda10.2\
+    libnvinfer-plugin-dev=7.0.0-1+cuda10.2\
     cuda-cudart-10-2
 ```
