@@ -123,3 +123,17 @@ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg/
 Download ready whl files
 * [v2.3.1-cuda10.2](https://github.com/alexshvid/tensorflow/releases/tag/v2.3.1-cuda10.2)
 
+After rename file name by removing cuda10.2
+
+```
+ashvid@ashvid-MS-7C75:~/distr$ mv tensorflow-2.3.1-cp37-cp37m-cuda10.2-linux_x86_64.whl tensorflow-2.3.1-cp37-cp37m-linux_x86_64.whl
+ashvid@ashvid-MS-7C75:~/distr$ pip3 install tensorflow-2.3.1-cp37-cp37m-linux_x86_64.whl
+...
+Successfully installed tensorflow-2.3.1
+```
+
+Testing
+```
+In [1]: import tensorflow as tf
+2020-12-16 09:20:30.816523: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.2
+```
