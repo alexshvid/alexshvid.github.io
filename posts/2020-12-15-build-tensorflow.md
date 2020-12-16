@@ -19,10 +19,8 @@ feed:
 
 * Install Cuda 10.2 [here](/posts/2020-12-14-install-cuda-10.2.html)
 * Install Basel 3.1.0
-* Install Python3.7-dev
-* Install pip3 and update it to latest version
-* Install setup tools
-* Install tensorflow 2.3.1 with additional python libs
+* Install Python3.7-dev [here](/posts/2020-12-13-install-python37.html)
+* Install tensorflow 2.3.1 with additional python libs `pip3 install tensorflow==2.3.1`
 
 Checkout tensorflow to local directory
 
