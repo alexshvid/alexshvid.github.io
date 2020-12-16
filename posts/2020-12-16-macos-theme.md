@@ -5,7 +5,7 @@ feed:
   title: MacOs theme on Ubuntu (Keyboard)
   description: How to map MacOs shortcuts in Ubuntu
   image: /images/macos-keyboard.png
-  date: 2020-12-15
+  date: 2020-12-16
   author:
     -
       name: Alex Shvid
