@@ -56,8 +56,8 @@ No ROCm support will be enabled for TensorFlow.
 Do you wish to build TensorFlow with CUDA support? [y/N]: y
 CUDA support will be enabled for TensorFlow.
 
-Do you wish to build TensorFlow with TensorRT support? [y/N]: n
-No TensorRT support will be enabled for TensorFlow.
+Do you wish to build TensorFlow with TensorRT support? [y/N]: y
+TensorRT support will be enabled for TensorFlow.
 
 Found CUDA 10.2 in:
     /usr/local/cuda-10.2/targets/x86_64-linux/lib
@@ -65,6 +65,9 @@ Found CUDA 10.2 in:
 Found cuDNN 7 in:
     /usr/lib/x86_64-linux-gnu
     /usr/include
+Found TensorRT 7 in:
+    /usr/lib/x86_64-linux-gnu
+    /usr/include/x86_64-linux-gnu
 
 
 Please specify a list of comma-separated CUDA compute capabilities you want to build with.
