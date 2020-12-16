@@ -17,6 +17,7 @@ feed:
 
 # How to build Tensorflow on Ubuntu 18.04
 
+* Install Cuda 10.2 [here](/posts/2020-12-14-install-cuda-10.2.html)
 * Install Basel 3.1.0
 * Install Python3.7-dev
 * Install pip3 and update it to latest version
