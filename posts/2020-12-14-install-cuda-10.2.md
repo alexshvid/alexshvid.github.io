@@ -35,8 +35,8 @@ sudo ubuntu-drivers autoinstall
 
 Install the 10-2 versions of packages
 ```
-apt-get install -y --no-install-recommends \
-    cuda-10-2 \ 
+sudo apt-get install -y --no-install-recommends \
+    cuda-10-2 \
     libcudnn7=7.6.5.32-1+cuda10.2  \
     libcudnn7-dev=7.6.5.32-1+cuda10.2 \
     libnvinfer7=7.0.0-1+cuda10.2 \
