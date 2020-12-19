@@ -27,6 +27,16 @@ Need to do following steps:
 * Go to `Keyboard & Mouse` -> Overview Shortcut change from `Left Super` to `Right Super`. It would remove layout overview to another key.
 * Click `Additional Options` and change `Switching to another layout` to `Win+Space`. This would make keyboard language selection like in Mac OS.
 
+
+### Global settings
+
+Run application Settings
+Open Settings -> keyboard 
+Scroll to the block 'System'
+Replace shortcuts:
+* Show notification list -> Super+N
+* Show the overview -> Super+O
+
 ### GTK-3.0
 
 Change shortcut bindings for GTK-3.0, text edit fields, firefox and etc.
